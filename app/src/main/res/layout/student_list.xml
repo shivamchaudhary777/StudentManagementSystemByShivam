@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativelayout"
+        >
+        <TextView
+            android:id="@+id/nameid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+
+            android:text="NAME"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rollnumberid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/nameid"
+            android:layout_alignLeft="@id/nameid"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:text="ROLL NO"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/delete"
+            android:id="@+id/imagedelete"
+
+            />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</android.support.v7.widget.CardView>

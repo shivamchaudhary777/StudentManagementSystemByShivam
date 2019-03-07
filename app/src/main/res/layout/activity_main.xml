@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fadedback"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SWIPE TO CHANGE VIEW"
+        android:layout_marginLeft="130dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp"/>
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="10dp"
+        android:id="@+id/switchbtn"
+
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/recyclerview">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NO STUDENT DATA AVAILABLE"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/nodata"
+        android:textSize="20sp"
+
+        android:textColor="#000000"
+        android:textStyle="bold"
+
+
+
+
+
+
+
+        />
+
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="ADD STUDENT"
+        android:textSize="30dp"
+        android:id="@+id/addstudent"/>
+
+</RelativeLayout>
